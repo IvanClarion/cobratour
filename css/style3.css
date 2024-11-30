@@ -1,0 +1,88 @@
+.delete-sec{
+    display: none;
+    text-align:justify;
+    justify-content:center;
+    align-items:center;
+    overflow: hidden;
+    transition: opacity 0.5s ease;
+    position: fixed;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index:1;
+    margin: 0;
+    padding: 0;
+    top: 0;
+}
+.add-sec{
+    display: none;
+    text-align:justify;
+    justify-content:center;
+    align-items:center;
+    overflow: hidden;
+    transition: opacity 0.5s ease;
+    position: fixed;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index:1;
+    margin: 0;
+    padding: 0;
+    top: 0;
+}
+.add-container{
+    background-color: whitesmoke;
+    padding: 20px;
+    margin: 0px;
+    text-align:center;
+    align-content:center;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px 0px 3px var(--dark);
+    position: fixed;
+}
+.x-mark{
+    border: none;
+    border-radius: 50%;
+    background-color: var(--dark);
+    padding: 3px;
+    float:right;
+    align-items: center;
+    margin: 0;
+    width: 25px;
+}
+.br-submit{
+    text-align: justify;
+    justify-content: flex-start;
+    display: block;
+}
+.new-gen{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.new-gen2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 5px 0;
+}
+.edit-sec{
+    display: none;
+    text-align:justify;
+    justify-content:center;
+    align-items:center;
+    transition: opacity 0.5s ease;
+    position: fixed;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index:9999;
+    margin: 0;
+    padding: 0;
+    top: 0;
+    margin:0;
+}

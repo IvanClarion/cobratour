@@ -1,0 +1,122 @@
+.map-sec{
+    display:inline;
+    justify-content: center;
+    align-items: center;
+}
+.map-container{
+    background-color: var(--light-grey);
+    padding: 10px;
+    justify-content: space-between;
+    box-shadow: 0px 0px 3px var(--dark);
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    margin-bottom:10px ;
+}
+.map-container2{
+    background-color: var(--light-grey);
+    padding: 10px;
+    justify-content: center;
+    box-shadow: 0px 0px 3px var(--dark);
+    border-radius: 10px;
+    display: none;
+    align-items: center;
+    margin-bottom:10px ;
+}
+.map-button{
+    border-radius: 5px;
+}
+.map-img-container{
+    border-radius: 50%;
+    background-color: none;
+}
+.map-add-sec{
+    margin: 10px 0;
+    display: inline-flex;
+    gap: 10px;
+}
+.map-label{
+    display: block;
+    text-align: center;
+}
+.map-icon{
+    width: 30px;
+
+}
+.map-align{
+    display: block;
+}
+.map-icon1{
+    padding: 5px;
+    border-radius: 5px;
+    gap: 5px;
+}
+.span-icon{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.map-area{
+    display: flex;
+    justify-content: center;
+    overflow-x: auto;
+    margin: 10px 0px;
+}
+.final-map{
+    border-radius: 10px;
+    box-shadow: 0px 0px 3px var(--dark);
+    width: 40%;
+}
+.icon-align{
+    display: flex;
+    justify-content: flex-end;
+}
+.add-map-sec{
+    display: none;
+    justify-content: center;
+    align-items: center;
+}
+.add-map-container{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    background: white;
+    box-shadow: 0px 0px 3px var(--dark);
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+.map-add-form{
+    width: 150px;
+}
+.save-map{
+    border-radius: 10px;
+    left: -5px;
+    position: relative;
+    font-size: 14.8px;
+    float: right;
+
+}
+.span-class-map{
+    display: block;
+    margin: 0;
+    position: relative;
+}
+.map-text{
+    display: inline-block;
+}
+.just-map{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.mark-esc{
+    background-color: var(--dark);
+    border-radius:50%;
+    align-items: flex-end;
+    padding: 3px;
+    position: relative;
+    top:-60px;
+}
+.span-form{
+    display: block;
+}

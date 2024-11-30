@@ -1,0 +1,101 @@
+:root{
+    --maroon:#900710;
+    --dark:#231F20;
+}
+*{
+    scroll-behavior: smooth;
+    padding: 0;
+    margin: 0;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(to left, var(--maroon), var(--dark));
+}
+section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    border: none;
+}
+.login-container{
+    display:flex;
+    background-color: whitesmoke;
+    padding: 0px;
+    justify-content: center;
+    border: none;
+    border-radius: 10px;
+    filter: blur(90%);
+    backdrop-filter: blur(10px); /* Apply background blur */
+    -webkit-backdrop-filter: blur(10px); /* Safari compatibility */
+    box-shadow: 0px 0px 3px var(--dark);
+    overflow: hidden;
+    position: relative;
+    top: 100px;
+}
+span{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    display:block;
+    padding: 10px;
+}
+.hall-img{
+    width: 300px;
+}
+.l-img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    height: 150px;
+    padding: 0;
+    position: relative;
+    left: 40px;
+}
+
+h1{
+    background: linear-gradient(to right, var(--maroon), var(--dark));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-align: center;
+    padding: 3px;
+}
+input{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    width: 90%;
+    margin-bottom: 5px;
+    box-shadow: 0px 0px 3px var(--dark);
+}
+.button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    border-style: none;
+    border: none;
+    border-radius: 10px;
+    background-color: var(--dark);
+    color: white;
+    width: 100%;
+}
+.button:hover{
+    background-color: var(--maroon);
+    transition: 0.5s;
+}
+.error-message {
+    display: none;
+    color: red;
+}
+.login{
+    transform: scale(1.2);
+    display: flex;
+}

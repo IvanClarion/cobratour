@@ -1,0 +1,20 @@
+<!-- res/drawable/button_clicked.xml -->
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_pressed="true">
+        <!-- When button is pressed -->
+        <shape android:shape="rectangle">
+            <solid android:color="#FFFFFF" /> <!-- White background when pressed -->
+            <stroke android:width="2dp" android:color="#FFFFFF" /> <!-- White border -->
+            <corners android:radius="10dp" /> <!-- Rounded corners (optional) -->
+        </shape>
+    </item>
+
+    <item>
+        <!-- Default button background when not pressed -->
+        <shape android:shape="rectangle">
+            <solid android:color="@android:color/transparent" /> <!-- Default transparent background -->
+            <stroke android:width="2dp" android:color="@android:color/transparent" /> <!-- No border -->
+            <corners android:radius="10dp" />
+        </shape>
+    </item>
+</selector>

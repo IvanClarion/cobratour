@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/survey_2"
+    android:padding="0dp">  <!-- Ensure no padding -->
+
+    <Button
+        android:id="@+id/explore_button"
+        android:layout_width="270dp"
+        android:layout_height="45dp"
+        android:background="@drawable/explore_button"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/find_button"
+        android:layout_width="270dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="12dp"
+        android:background="@drawable/find_button"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/explore_button"
+        app:layout_constraintTop_toBottomOf="@+id/explore_button"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <Button
+        android:id="@+id/discover_button"
+        android:layout_width="270dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="12dp"
+        android:background="@drawable/discover_button"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/find_button"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/find_button"
+        app:layout_constraintTop_toBottomOf="@+id/find_button"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <ProgressBar
+        android:id="@+id/page_2"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="106dp"
+        android:layout_height="24dp"
+        android:background="@color/app_gray"
+        android:max="100"
+        android:progress="100"
+        android:progressTint="@color/red"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/discover_button"
+        app:layout_constraintStart_toStartOf="@+id/discover_button"
+        app:layout_constraintTop_toBottomOf="@+id/discover_button"
+        app:layout_constraintVertical_bias="0.058" />
+</androidx.constraintlayout.widget.ConstraintLayout>
